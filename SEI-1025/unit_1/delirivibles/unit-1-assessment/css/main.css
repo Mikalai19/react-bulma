@@ -1,0 +1,29 @@
+#output {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 6rem;
+  margin: 0.5rem;
+}
+
+input {
+  text-align: center;
+  border-style: groove;
+  box-sizing: content-box;
+  border-radius: 0.3em;
+  padding: 1rem;
+}
+.plus {
+  border-radius: 0.3em;
+  padding: 1rem 1rem;
+}
+.minus {
+  border-radius: 0.3em;
+  padding: 1rem 1rem;
+}
