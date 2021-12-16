@@ -8,6 +8,7 @@ import Cover from './Cover';
 import Football from './Football';
 import Volleyball from './Volleyball';
 import Login from './Login';
+import Forum from './Forum';
 
 class App extends Component {
   render() {
@@ -17,8 +18,9 @@ class App extends Component {
        <Basketball /> */}
         {/*<Football />}
         {<Volleyball />*/}
-        {<Cover />}
+        {/*<Cover />*/}
         {/*<Login />*/}
+        {<Forum />}
 
       </div>
     )
