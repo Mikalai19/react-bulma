@@ -27,6 +27,26 @@ const commentList = [
         message: "Lets go ...",
         author: "@tombrady",
     },
+    {
+        message: "what are those",
+        author: "@xanderino",
+    },
+    {
+        message: "lolcats",
+        author: "@whatever jones",
+    },
+    {
+        message: "crocs are stylish",
+        author: "@steve jobs",
+    },
+    {
+        message: "im with stupid",
+        author: "@stupid",
+    },
+    {
+        message: "XXX NSFW",
+        author: "@teenager",
+    },
 ];
 
 const displayCommentList = commentList.map((c, idx) => {
@@ -57,7 +77,16 @@ const displayCommentList = commentList.map((c, idx) => {
     );
 });
 
+let rocketList = [];
+console.log("works", rocketList);
+
 class Forum extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { rockets: [] };
+    }
+
+
     render() {
         return (
             <div>
