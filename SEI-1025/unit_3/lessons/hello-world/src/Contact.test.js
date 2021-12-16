@@ -33,14 +33,16 @@ test('Twitter icon present', () => {
     expect(spanElement).toBeInTheDocument();
 });
 
-// test('render tag called Payments', () => {
-//     render(<Contact />);
-//     const spanElement = screen.getByText(/Payments/i);
-//     expect(spanElement).toBeInTheDocument();
-// });
+test('check if Lets go present', () => {
+    render(<Contact />);
+    const spanElement = screen.getByText(/Lets go/i);
+    expect(spanElement).toBeInTheDocument();
+});
 
-// test('render tag called Authentication', () => {
-//     render(<Contact />);
-//     const spanElement = screen.getByText(/Payments/i);
-//     expect(spanElement).toBeInTheDocument();
-// });
+test('check if What up present', () => {
+    render(<Contact />);
+    const spanElement = screen.getByText(/What up/i);
+    expect(spanElement).toBeInTheDocument();
+});
+
+
