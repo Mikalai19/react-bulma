@@ -22,7 +22,9 @@ class App extends Component {
         {/*<Cover />*/}
         {/*<Login />*/}
         {/*<Forum />*/}
-        {<Contact />}
+        {/*<Contact />*/}
+        {<Cover />}
+
 
       </div>
     )

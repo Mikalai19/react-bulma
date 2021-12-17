@@ -49,7 +49,7 @@ class Cover extends Component {
                             <div className="column is-5">
                                 <figure className="image is-4by3">
                                     <img
-                                        src="https://picsum.photos/800/600/?random"
+                                        src="https://picsum.photos/800/600/?random" title="pic"
                                         alt="Description"
                                     />
                                 </figure>
