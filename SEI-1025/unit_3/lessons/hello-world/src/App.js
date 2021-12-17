@@ -11,6 +11,7 @@ import Login from './Login';
 import Forum from './Forum';
 import Contact from './Contact';
 import Documentation from './Documentation';
+import Hero from './Hero';
 
 class App extends Component {
   render() {
@@ -24,8 +25,10 @@ class App extends Component {
         {/*<Login />*/}
         {/*<Forum />*/}
         {/*<Contact />*/}
-        {/*<Cover />*/}
-        {<Documentation />}
+        {<Hero />}
+
+
+
 
 
       </div>
