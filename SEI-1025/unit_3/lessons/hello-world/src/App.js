@@ -10,6 +10,7 @@ import Volleyball from './Volleyball';
 import Login from './Login';
 import Forum from './Forum';
 import Contact from './Contact';
+import Documentation from './Documentation';
 
 class App extends Component {
   render() {
@@ -23,7 +24,8 @@ class App extends Component {
         {/*<Login />*/}
         {/*<Forum />*/}
         {/*<Contact />*/}
-        {<Cover />}
+        {/*<Cover />*/}
+        {<Documentation />}
 
 
       </div>
