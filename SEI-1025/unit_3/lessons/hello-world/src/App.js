@@ -12,6 +12,7 @@ import Forum from './Forum';
 import Contact from './Contact';
 import Documentation from './Documentation';
 import Hero from './Hero';
+import Blog from './Blog';
 
 class App extends Component {
   render() {
@@ -25,7 +26,8 @@ class App extends Component {
         {/*<Login />*/}
         {/*<Forum />*/}
         {/*<Contact />*/}
-        {<Hero />}
+        {/* {<Hero />} */}
+        {<Blog />}
 
 
 
