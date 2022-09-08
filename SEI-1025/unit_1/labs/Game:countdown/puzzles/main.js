@@ -311,7 +311,6 @@ function refresh() {
 
 //Click sound 
 // let sound = new sound();
-// sound scr 
-
+//create sounEffect by clicking on brick
 
     //sound.src = "audio/samplerButton.wav";
